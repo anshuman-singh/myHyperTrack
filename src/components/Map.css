@@ -1,0 +1,7 @@
+.leaflet-container {
+  height: 80vh;
+  border: 1px solid #000;
+}
+.leaflet-control-container .leaflet-routing-container-hide {
+  display: none;
+}
