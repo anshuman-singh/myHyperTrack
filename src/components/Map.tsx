@@ -50,7 +50,7 @@ export default function Map({
 }
 
 const Start = ({ clickMe }: any) => {
-  const map = useMapEvents({
+  useMapEvents({
     click(e) {
       const { lat, lng } = e.latlng;
       clickMe([lat, lng]);
